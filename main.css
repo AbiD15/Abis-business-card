@@ -1,0 +1,99 @@
+body{
+    background-color: linear-gradient(#4f4456, #373141);
+    background-image: url("assets/background.svg")
+}
+
+
+img:hover{
+    animation: pulse; 
+    animation-duration: 2s; 
+}
+
+.front-card{
+    box-shadow: 2px 8px 15px 0px #100b30ab;
+    width:350px;
+    height: 620px;
+    margin: 0 auto;
+    background-color:rgb(175, 177, 182);
+    /* how far apart the cards are */
+    margin-bottom: 50px;
+    background-image: url("assets/biz-card-front.svg");
+   
+}
+.back-card{
+    box-shadow: 2px 8px 15px 0px #100b30ab;
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:rgb(175, 177, 181);
+    /* background-image: url("assets/biz-card-back.svg"); */
+}
+.icon-container{
+    /* height: 1px; */
+    width: 5%;
+    /* padding: 1px; */
+    position: static;
+    display: grid;
+    grid-gap: 2px;
+    margin-left: 145px; 
+    margin-top: 100px; 
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: left;
+    grid-template-columns: 70px;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+} 
+
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(78, 65, 114);
+  }
+/* a{
+    text-align: left;
+} */
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+    h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 35px;
+        position: relative;
+        top: 520px;
+        margin-left: 65px;
+}
+    h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100; 
+        margin-top:10px; 
+        margin-left:85px; 
+        position: relative;
+        top: 50px;
+        /* margin-left: px; */
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;  
+        text-align: center;
+        margin: 0;
+  /* position: ; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-90%, -2%);
+    }
+
